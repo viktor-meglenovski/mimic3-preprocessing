@@ -1,3 +1,3 @@
 # Preprocessing data from the MIMIC-III database
-## Тимски проект под менторство на проф д-р. Бојана Котеска
 
+In this research we have extracted data about patients who stayed in critical care units of the Beth Israel Deaconess Medical Center between 2001 and 2012, which is stored in a separate directories in MIMIC-III Clinical Database and filtered by PPG and SpO2 signals. The data is separated in two categories (folders) based on the interval in which SpO2 signal is measured – one second or one minute. The filtered data is stored on a FCSE server and has private access. So far we have stored 340 GB of filtered data, which is approximately data for 2100 patients.
